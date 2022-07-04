@@ -13,11 +13,8 @@ public class Login {
     
 // boelean to check username
     public boolean checkUserName(String checku){
-         //if statement for username conditons 
-        if(checku.contains("_")&& checku.length()<=5){
-            return true;
-        }else 
-            return false;
+        //if statement for username conditons
+        return checku.contains("_")&& checku.length()<=5;
         }
     
 //boelean to check password
